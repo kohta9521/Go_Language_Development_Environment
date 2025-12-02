@@ -1,14 +1,7 @@
 package main
 
-import (
-	"fmt"
-	"time"
-)
+import "fmt"
 
-// hello world print function
-func main() {
-	fmt.Println("Hello, World!")
-	t := time.Now()
-	fmt.Println(t)
-	fmt.Println(time.Now())
+func main(){
+	fmt.Println("Hello, World!");
 }
